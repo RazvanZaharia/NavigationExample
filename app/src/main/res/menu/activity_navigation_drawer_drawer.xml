@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_fragment_a"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Fragment A"/>
+        <item
+                android:id="@+id/nav_fragment_b"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Fragment B"/>
+        <item
+                android:id="@+id/nav_fragment_c"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Fragment C"/>
+        <item
+                android:id="@+id/nav_fragment_d"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Fragment D"/>
+    </group>
+
+    <item android:title="SubMenu">
+        <menu>
+            <item
+                    android:id="@+id/nav_fragment_e"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Fragment E"/>
+            <item
+                    android:id="@+id/nav_fragment_f"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Fragment F"/>
+        </menu>
+    </item>
+
+</menu>
